@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.almanac.subhasis.relation.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/back1">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00ffffff"
+        android:dividerHeight="20dp"
+        android:divider="#00ffffff"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Family"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#d4f983"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:background="#041387"
+        android:paddingTop="7dp"
+        android:textStyle="bold" />
+</RelativeLayout>

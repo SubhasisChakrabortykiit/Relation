@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Relation</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_notices">Notices</string>
+    <string name="heading">Mah Family</string>
+    <string name="title_activity_row">row</string>
+</resources>
